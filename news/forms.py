@@ -6,3 +6,5 @@ class PostForm(ModelForm):
     class Meta:
         model = Post
         fields = ["head_post", "author_post", "text_post"]
+
+
